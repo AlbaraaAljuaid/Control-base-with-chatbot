@@ -1,0 +1,121 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Arial', sans-serif;
+}
+.wrap{
+  display: flex;
+  min-height: 100vh;
+  background: url('img/robot3.png');
+}
+.item{
+  padding: 10px;
+}
+.btn{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #0081D5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(80vh,50vh);
+}
+.btn:hover,
+.btn.focus{
+  background: #005C99
+}
+.btn.active{
+  background: #003659;
+}
+.btn2{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #0081D5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(85.5vh,35vh);
+}
+.btn2:hover,
+.btn2.focus{
+  background: #005C99
+}
+.btn2.active{
+  background: #003659;
+}
+.btn3{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #0081D5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(70vh,50vh);
+}
+.btn3:hover,
+.btn3.focus{
+  background: #005C99
+}
+.btn3.active{
+  background: #003659;
+}
+.btn4{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #0081D5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  transform: translate(54.5vh,65vh);
+}
+.btn4:hover,
+.btn4.focus{
+  background: #005C99
+}
+.btn4.active{
+  background: #003659;
+}
+.btn5{
+  outline: none;
+  display: block;
+  border: 0;
+  font-size: 16px;
+  line-height: 1;
+  padding: 16px 30px;
+  border-radius: 30px;
+  background: #0081D5;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s linear;
+transform: translate(60vh,50vh);
+}
+.btn5:hover,
+.btn5.focus{
+  background: #005C99
+}
+.btn5.active{
+  background: #003659;
+}
